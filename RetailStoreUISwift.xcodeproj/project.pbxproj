@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03292DF620959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292DF420959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift */; };
+		03292DF720959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03292DF520959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib */; };
+		03292DF920959CD1000A4390 /* KSBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292DF820959CD1000A4390 /* KSBackgroundView.swift */; };
+		03292E002095A3C4000A4390 /* PastedGraphic-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFA2095A3C4000A4390 /* PastedGraphic-3.png */; };
+		03292E012095A3C4000A4390 /* PastedGraphic-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFB2095A3C4000A4390 /* PastedGraphic-4.png */; };
+		03292E022095A3C4000A4390 /* PastedGraphic-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFC2095A3C4000A4390 /* PastedGraphic-7.png */; };
+		03292E032095A3C4000A4390 /* PastedGraphic-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFD2095A3C4000A4390 /* PastedGraphic-1.png */; };
+		03292E042095A3C4000A4390 /* PastedGraphic-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFE2095A3C4000A4390 /* PastedGraphic-5.png */; };
+		03292E052095A3C4000A4390 /* PastedGraphic-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFF2095A3C4000A4390 /* PastedGraphic-6.png */; };
 		03583AB52095979700676D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AB42095979700676D12 /* AppDelegate.swift */; };
 		03583AB72095979800676D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03583AB62095979800676D12 /* Assets.xcassets */; };
 		03583ABA2095979800676D12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03583AB82095979800676D12 /* MainMenu.xib */; };
 		03583AC62095979800676D12 /* RetailStoreUISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AC52095979800676D12 /* RetailStoreUISwiftTests.swift */; };
 		03583AD12095979800676D12 /* RetailStoreUISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */; };
+		03583AE02095983900676D12 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583ADE2095983900676D12 /* MainWindowController.swift */; };
+		03583AE12095983900676D12 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03583ADF2095983900676D12 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03292DF420959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSRetailStoreCollectionViewItem.swift; sourceTree = "<group>"; };
+		03292DF520959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KSRetailStoreCollectionViewItem.xib; sourceTree = "<group>"; };
+		03292DF820959CD1000A4390 /* KSBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSBackgroundView.swift; sourceTree = "<group>"; };
+		03292DFA2095A3C4000A4390 /* PastedGraphic-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-3.png"; sourceTree = "<group>"; };
+		03292DFB2095A3C4000A4390 /* PastedGraphic-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-4.png"; sourceTree = "<group>"; };
+		03292DFC2095A3C4000A4390 /* PastedGraphic-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-7.png"; sourceTree = "<group>"; };
+		03292DFD2095A3C4000A4390 /* PastedGraphic-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-1.png"; sourceTree = "<group>"; };
+		03292DFE2095A3C4000A4390 /* PastedGraphic-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-5.png"; sourceTree = "<group>"; };
+		03292DFF2095A3C4000A4390 /* PastedGraphic-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-6.png"; sourceTree = "<group>"; };
 		03583AB12095979700676D12 /* RetailStoreUISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailStoreUISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03583AB42095979700676D12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03583AB62095979800676D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +64,8 @@
 		03583ACC2095979800676D12 /* RetailStoreUISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailStoreUISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailStoreUISwiftUITests.swift; sourceTree = "<group>"; };
 		03583AD22095979800676D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03583ADE2095983900676D12 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		03583ADF2095983900676D12 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +116,22 @@
 		03583AB32095979700676D12 /* RetailStoreUISwift */ = {
 			isa = PBXGroup;
 			children = (
+				03292DFD2095A3C4000A4390 /* PastedGraphic-1.png */,
+				03292DFA2095A3C4000A4390 /* PastedGraphic-3.png */,
+				03292DFB2095A3C4000A4390 /* PastedGraphic-4.png */,
+				03292DFE2095A3C4000A4390 /* PastedGraphic-5.png */,
+				03292DFF2095A3C4000A4390 /* PastedGraphic-6.png */,
+				03292DFC2095A3C4000A4390 /* PastedGraphic-7.png */,
 				03583AB42095979700676D12 /* AppDelegate.swift */,
 				03583AB62095979800676D12 /* Assets.xcassets */,
 				03583AB82095979800676D12 /* MainMenu.xib */,
 				03583ABB2095979800676D12 /* Info.plist */,
 				03583ABC2095979800676D12 /* RetailStoreUISwift.entitlements */,
+				03583ADE2095983900676D12 /* MainWindowController.swift */,
+				03583ADF2095983900676D12 /* MainWindowController.xib */,
+				03292DF420959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift */,
+				03292DF520959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib */,
+				03292DF820959CD1000A4390 /* KSBackgroundView.swift */,
 			);
 			path = RetailStoreUISwift;
 			sourceTree = "<group>";
@@ -225,7 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03292E052095A3C4000A4390 /* PastedGraphic-6.png in Resources */,
+				03292E012095A3C4000A4390 /* PastedGraphic-4.png in Resources */,
 				03583AB72095979800676D12 /* Assets.xcassets in Resources */,
+				03583AE12095983900676D12 /* MainWindowController.xib in Resources */,
+				03292E032095A3C4000A4390 /* PastedGraphic-1.png in Resources */,
+				03292DF720959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib in Resources */,
+				03292E002095A3C4000A4390 /* PastedGraphic-3.png in Resources */,
+				03292E042095A3C4000A4390 /* PastedGraphic-5.png in Resources */,
+				03292E022095A3C4000A4390 /* PastedGraphic-7.png in Resources */,
 				03583ABA2095979800676D12 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03583AE02095983900676D12 /* MainWindowController.swift in Sources */,
 				03583AB52095979700676D12 /* AppDelegate.swift in Sources */,
+				03292DF920959CD1000A4390 /* KSBackgroundView.swift in Sources */,
+				03292DF620959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

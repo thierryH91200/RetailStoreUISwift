@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="KSRetailStoreCollectionViewItem" customModule="RetailStoreUISwift" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionTextField" destination="nHi-VS-ba6" id="0Ri-Ac-NIo"/>
+                <outlet property="detailDescription" destination="2TA-Wq-unj" id="ZRi-uF-8iC"/>
+                <outlet property="itemImageView" destination="Viw-C2-hvg" id="9TI-Q2-qO6"/>
+                <outlet property="price" destination="GlB-G2-fpK" id="MwD-ng-SL8"/>
+                <outlet property="titleTextField" destination="Gk3-O7-WL3" id="icF-DU-q9n"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="yaa-Ec-NFR" customClass="KSWhiteBackgroundView" customModule="RetailStoreUISwift" customModuleProvider="target">
+                    <rect key="frame" x="10" y="10" width="180" height="280"/>
+                    <subviews>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="lyn-NY-7zs" customClass="KSHeaderView" customModule="RetailStoreUISwift" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="239" width="180" height="41"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gk3-O7-WL3">
+                                    <rect key="frame" x="18" y="12" width="152" height="17"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="4rf-Jm-V4l">
+                                        <font key="font" metaFont="systemBold" size="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="MR9-3J-kWr" customClass="KSFooterView" customModule="RetailStoreUISwift" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="23"/>
+                            <subviews>
+                                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcW-uF-fRl">
+                                    <rect key="frame" x="35" y="-5" width="110" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <buttonCell key="cell" type="push" title="Add to Cart" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JzE-CS-u1V">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="addtoCart:" target="-2" id="sCm-SX-D8E"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </customView>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nHi-VS-ba6">
+                            <rect key="frame" x="18" y="100" width="171" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Kr0-5h-Gk7">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2TA-Wq-unj">
+                            <rect key="frame" x="18" y="73" width="176" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="23S-5z-hHC">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GlB-G2-fpK">
+                            <rect key="frame" x="18" y="46" width="176" height="17"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="ve0-WY-9W8">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fss-0w-cMl">
+                            <rect key="frame" x="101" y="25" width="93" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="89" id="IGH-ZH-GVR"/>
+                            </constraints>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Read More ..." id="ceZ-d9-tri">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Viw-C2-hvg">
+                            <rect key="frame" x="34" y="131" width="138" height="100"/>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSActionTemplate" id="ZzU-hU-SgJ"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="nHi-VS-ba6" firstAttribute="top" secondItem="Viw-C2-hvg" secondAttribute="bottom" constant="14" id="22Y-gL-hz2"/>
+                        <constraint firstItem="MR9-3J-kWr" firstAttribute="leading" secondItem="lyn-NY-7zs" secondAttribute="leading" id="24I-jb-B87"/>
+                        <constraint firstItem="2TA-Wq-unj" firstAttribute="leading" secondItem="yaa-Ec-NFR" secondAttribute="leading" constant="20" symbolic="YES" id="4fj-cl-Cba"/>
+                        <constraint firstItem="Fss-0w-cMl" firstAttribute="trailing" secondItem="2TA-Wq-unj" secondAttribute="trailing" id="8pC-YM-oQq"/>
+                        <constraint firstAttribute="bottom" secondItem="lyn-NY-7zs" secondAttribute="bottom" constant="239" id="AI0-hG-NTP"/>
+                        <constraint firstItem="MR9-3J-kWr" firstAttribute="top" secondItem="Fss-0w-cMl" secondAttribute="bottom" constant="2" id="AQg-Ze-2hB"/>
+                        <constraint firstItem="GlB-G2-fpK" firstAttribute="top" secondItem="2TA-Wq-unj" secondAttribute="bottom" constant="10" id="PjR-4o-ybR"/>
+                        <constraint firstAttribute="bottom" secondItem="MR9-3J-kWr" secondAttribute="bottom" id="QOs-OW-bfw"/>
+                        <constraint firstItem="Viw-C2-hvg" firstAttribute="leading" secondItem="yaa-Ec-NFR" secondAttribute="leading" constant="34" id="QWM-jE-nxt"/>
+                        <constraint firstAttribute="trailing" secondItem="Fss-0w-cMl" secondAttribute="trailing" constant="-12" id="QkT-HY-tds"/>
+                        <constraint firstItem="MR9-3J-kWr" firstAttribute="top" secondItem="yaa-Ec-NFR" secondAttribute="top" constant="257" id="Ry6-R5-wXV"/>
+                        <constraint firstItem="lyn-NY-7zs" firstAttribute="top" secondItem="yaa-Ec-NFR" secondAttribute="top" id="UMU-nS-YBY"/>
+                        <constraint firstItem="2TA-Wq-unj" firstAttribute="leading" secondItem="GlB-G2-fpK" secondAttribute="leading" id="UMn-LW-VRP"/>
+                        <constraint firstItem="2TA-Wq-unj" firstAttribute="top" secondItem="nHi-VS-ba6" secondAttribute="bottom" constant="10" id="VHe-BL-JG2"/>
+                        <constraint firstItem="MR9-3J-kWr" firstAttribute="trailing" secondItem="lyn-NY-7zs" secondAttribute="trailing" id="YB8-cF-luy"/>
+                        <constraint firstItem="MR9-3J-kWr" firstAttribute="leading" secondItem="yaa-Ec-NFR" secondAttribute="leading" id="Zef-r6-5sI"/>
+                        <constraint firstItem="Fss-0w-cMl" firstAttribute="trailing" secondItem="GlB-G2-fpK" secondAttribute="trailing" id="axd-Qm-ft4"/>
+                        <constraint firstItem="nHi-VS-ba6" firstAttribute="leading" secondItem="2TA-Wq-unj" secondAttribute="leading" id="fKA-6Y-1pk"/>
+                        <constraint firstAttribute="trailing" secondItem="nHi-VS-ba6" secondAttribute="trailing" constant="-7" id="g0z-3a-EF9"/>
+                        <constraint firstItem="Fss-0w-cMl" firstAttribute="top" secondItem="GlB-G2-fpK" secondAttribute="bottom" constant="4" id="gT5-Ak-wT1"/>
+                        <constraint firstItem="Viw-C2-hvg" firstAttribute="centerX" secondItem="nHi-VS-ba6" secondAttribute="centerX" id="i9y-4W-nSV"/>
+                        <constraint firstAttribute="trailing" secondItem="MR9-3J-kWr" secondAttribute="trailing" id="vFv-TI-Tac"/>
+                        <constraint firstItem="Viw-C2-hvg" firstAttribute="top" secondItem="lyn-NY-7zs" secondAttribute="bottom" constant="8" symbolic="YES" id="zbz-BW-u6x"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="yaa-Ec-NFR" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="Ht1-Km-hZM"/>
+                <constraint firstAttribute="trailing" secondItem="yaa-Ec-NFR" secondAttribute="trailing" constant="10" id="Qyb-4q-bFd"/>
+                <constraint firstItem="yaa-Ec-NFR" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="10" id="glo-AI-qUj"/>
+                <constraint firstAttribute="bottom" secondItem="yaa-Ec-NFR" secondAttribute="bottom" constant="10" id="gym-kG-Vaf"/>
+            </constraints>
+            <point key="canvasLocation" x="301" y="250"/>
+        </customView>
+        <collectionViewItem id="Ryv-3j-gYl" customClass="KSRetailStoreCollectionViewItem" customModule="RetailStoreUISwift" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionTextField" destination="nHi-VS-ba6" id="WRz-B7-FvB"/>
+                <outlet property="detailDescription" destination="2TA-Wq-unj" id="yoE-JN-dCW"/>
+                <outlet property="imageView" destination="Viw-C2-hvg" id="sI6-MN-yax"/>
+                <outlet property="price" destination="GlB-G2-fpK" id="1ck-YK-x9O"/>
+                <outlet property="titleTextField" destination="Gk3-O7-WL3" id="uWE-zA-eup"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+    </resources>
+</document>
