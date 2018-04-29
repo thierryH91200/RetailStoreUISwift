@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03583AB52095979700676D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AB42095979700676D12 /* AppDelegate.swift */; };
+		03583AB72095979800676D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03583AB62095979800676D12 /* Assets.xcassets */; };
+		03583ABA2095979800676D12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03583AB82095979800676D12 /* MainMenu.xib */; };
+		03583AC62095979800676D12 /* RetailStoreUISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AC52095979800676D12 /* RetailStoreUISwiftTests.swift */; };
+		03583AD12095979800676D12 /* RetailStoreUISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03583AC22095979800676D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03583AA92095979700676D12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03583AB02095979700676D12;
+			remoteInfo = RetailStoreUISwift;
+		};
+		03583ACD2095979800676D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03583AA92095979700676D12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03583AB02095979700676D12;
+			remoteInfo = RetailStoreUISwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03583AB12095979700676D12 /* RetailStoreUISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailStoreUISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03583AB42095979700676D12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03583AB62095979800676D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03583AB92095979800676D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03583ABB2095979800676D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03583ABC2095979800676D12 /* RetailStoreUISwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetailStoreUISwift.entitlements; sourceTree = "<group>"; };
+		03583AC12095979800676D12 /* RetailStoreUISwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailStoreUISwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03583AC52095979800676D12 /* RetailStoreUISwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailStoreUISwiftTests.swift; sourceTree = "<group>"; };
+		03583AC72095979800676D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03583ACC2095979800676D12 /* RetailStoreUISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailStoreUISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailStoreUISwiftUITests.swift; sourceTree = "<group>"; };
+		03583AD22095979800676D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03583AAE2095979700676D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03583ABE2095979800676D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03583AC92095979800676D12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03583AA82095979700676D12 = {
+			isa = PBXGroup;
+			children = (
+				03583AB32095979700676D12 /* RetailStoreUISwift */,
+				03583AC42095979800676D12 /* RetailStoreUISwiftTests */,
+				03583ACF2095979800676D12 /* RetailStoreUISwiftUITests */,
+				03583AB22095979700676D12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03583AB22095979700676D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03583AB12095979700676D12 /* RetailStoreUISwift.app */,
+				03583AC12095979800676D12 /* RetailStoreUISwiftTests.xctest */,
+				03583ACC2095979800676D12 /* RetailStoreUISwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03583AB32095979700676D12 /* RetailStoreUISwift */ = {
+			isa = PBXGroup;
+			children = (
+				03583AB42095979700676D12 /* AppDelegate.swift */,
+				03583AB62095979800676D12 /* Assets.xcassets */,
+				03583AB82095979800676D12 /* MainMenu.xib */,
+				03583ABB2095979800676D12 /* Info.plist */,
+				03583ABC2095979800676D12 /* RetailStoreUISwift.entitlements */,
+			);
+			path = RetailStoreUISwift;
+			sourceTree = "<group>";
+		};
+		03583AC42095979800676D12 /* RetailStoreUISwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				03583AC52095979800676D12 /* RetailStoreUISwiftTests.swift */,
+				03583AC72095979800676D12 /* Info.plist */,
+			);
+			path = RetailStoreUISwiftTests;
+			sourceTree = "<group>";
+		};
+		03583ACF2095979800676D12 /* RetailStoreUISwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */,
+				03583AD22095979800676D12 /* Info.plist */,
+			);
+			path = RetailStoreUISwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03583AB02095979700676D12 /* RetailStoreUISwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03583AD52095979800676D12 /* Build configuration list for PBXNativeTarget "RetailStoreUISwift" */;
+			buildPhases = (
+				03583AAD2095979700676D12 /* Sources */,
+				03583AAE2095979700676D12 /* Frameworks */,
+				03583AAF2095979700676D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetailStoreUISwift;
+			productName = RetailStoreUISwift;
+			productReference = 03583AB12095979700676D12 /* RetailStoreUISwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03583AC02095979800676D12 /* RetailStoreUISwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03583AD82095979800676D12 /* Build configuration list for PBXNativeTarget "RetailStoreUISwiftTests" */;
+			buildPhases = (
+				03583ABD2095979800676D12 /* Sources */,
+				03583ABE2095979800676D12 /* Frameworks */,
+				03583ABF2095979800676D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03583AC32095979800676D12 /* PBXTargetDependency */,
+			);
+			name = RetailStoreUISwiftTests;
+			productName = RetailStoreUISwiftTests;
+			productReference = 03583AC12095979800676D12 /* RetailStoreUISwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03583ACB2095979800676D12 /* RetailStoreUISwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03583ADB2095979800676D12 /* Build configuration list for PBXNativeTarget "RetailStoreUISwiftUITests" */;
+			buildPhases = (
+				03583AC82095979800676D12 /* Sources */,
+				03583AC92095979800676D12 /* Frameworks */,
+				03583ACA2095979800676D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03583ACE2095979800676D12 /* PBXTargetDependency */,
+			);
+			name = RetailStoreUISwiftUITests;
+			productName = RetailStoreUISwiftUITests;
+			productReference = 03583ACC2095979800676D12 /* RetailStoreUISwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03583AA92095979700676D12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = thierryH24;
+				TargetAttributes = {
+					03583AB02095979700676D12 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					03583AC02095979800676D12 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 03583AB02095979700676D12;
+					};
+					03583ACB2095979800676D12 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 03583AB02095979700676D12;
+					};
+				};
+			};
+			buildConfigurationList = 03583AAC2095979700676D12 /* Build configuration list for PBXProject "RetailStoreUISwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03583AA82095979700676D12;
+			productRefGroup = 03583AB22095979700676D12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03583AB02095979700676D12 /* RetailStoreUISwift */,
+				03583AC02095979800676D12 /* RetailStoreUISwiftTests */,
+				03583ACB2095979800676D12 /* RetailStoreUISwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03583AAF2095979700676D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03583AB72095979800676D12 /* Assets.xcassets in Resources */,
+				03583ABA2095979800676D12 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03583ABF2095979800676D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03583ACA2095979800676D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03583AAD2095979700676D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03583AB52095979700676D12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03583ABD2095979800676D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03583AC62095979800676D12 /* RetailStoreUISwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03583AC82095979800676D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03583AD12095979800676D12 /* RetailStoreUISwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03583AC32095979800676D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03583AB02095979700676D12 /* RetailStoreUISwift */;
+			targetProxy = 03583AC22095979800676D12 /* PBXContainerItemProxy */;
+		};
+		03583ACE2095979800676D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03583AB02095979700676D12 /* RetailStoreUISwift */;
+			targetProxy = 03583ACD2095979800676D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03583AB82095979800676D12 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03583AB92095979800676D12 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03583AD32095979800676D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03583AD42095979800676D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03583AD62095979800676D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetailStoreUISwift/RetailStoreUISwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetailStoreUISwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry24100..RetailStoreUISwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		03583AD72095979800676D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetailStoreUISwift/RetailStoreUISwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetailStoreUISwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry24100..RetailStoreUISwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		03583AD92095979800676D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetailStoreUISwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry24100..RetailStoreUISwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetailStoreUISwift.app/Contents/MacOS/RetailStoreUISwift";
+			};
+			name = Debug;
+		};
+		03583ADA2095979800676D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetailStoreUISwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry24100..RetailStoreUISwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetailStoreUISwift.app/Contents/MacOS/RetailStoreUISwift";
+			};
+			name = Release;
+		};
+		03583ADC2095979800676D12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetailStoreUISwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry24100..RetailStoreUISwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = RetailStoreUISwift;
+			};
+			name = Debug;
+		};
+		03583ADD2095979800676D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetailStoreUISwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thierry24100..RetailStoreUISwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = RetailStoreUISwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03583AAC2095979700676D12 /* Build configuration list for PBXProject "RetailStoreUISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03583AD32095979800676D12 /* Debug */,
+				03583AD42095979800676D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03583AD52095979800676D12 /* Build configuration list for PBXNativeTarget "RetailStoreUISwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03583AD62095979800676D12 /* Debug */,
+				03583AD72095979800676D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03583AD82095979800676D12 /* Build configuration list for PBXNativeTarget "RetailStoreUISwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03583AD92095979800676D12 /* Debug */,
+				03583ADA2095979800676D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03583ADB2095979800676D12 /* Build configuration list for PBXNativeTarget "RetailStoreUISwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03583ADC2095979800676D12 /* Debug */,
+				03583ADD2095979800676D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03583AA92095979700676D12 /* Project object */;
+}
