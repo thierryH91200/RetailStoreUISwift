@@ -30,6 +30,7 @@
 		036D009D2096DEA400D8F049 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D009B2096DEA400D8F049 /* MainWindowController.swift */; };
 		036D009E2096DEA400D8F049 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D009C2096DEA400D8F049 /* MainWindowController.xib */; };
 		036D00A020971DC500D8F049 /* icons8-wallet-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 036D009F20971DC500D8F049 /* icons8-wallet-80.png */; };
+		03FAFF4520986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png in Resources */ = {isa = PBXBuildFile; fileRef = 03FAFF4420986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		036D009B2096DEA400D8F049 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		036D009C2096DEA400D8F049 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 		036D009F20971DC500D8F049 /* icons8-wallet-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-wallet-80.png"; sourceTree = "<group>"; };
+		03FAFF4420986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capture d'écran 2018-05-01 10.58.36.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		03583AA82095979700676D12 = {
 			isa = PBXGroup;
 			children = (
+				03FAFF4320986431009D3A79 /* Image */,
 				03583AB32095979700676D12 /* RetailStoreUISwift */,
 				03583AC42095979800676D12 /* RetailStoreUISwiftTests */,
 				03583ACF2095979800676D12 /* RetailStoreUISwiftUITests */,
@@ -181,6 +184,14 @@
 				03583AD22095979800676D12 /* Info.plist */,
 			);
 			path = RetailStoreUISwiftUITests;
+			sourceTree = "<group>";
+		};
+		03FAFF4320986431009D3A79 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				03FAFF4420986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 			files = (
 				03292E1520960301000A4390 /* icons8-purse-100.png in Resources */,
 				036D009E2096DEA400D8F049 /* MainWindowController.xib in Resources */,
+				03FAFF4520986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png in Resources */,
 				03583AB72095979800676D12 /* Assets.xcassets in Resources */,
 				03292E1B2096047F000A4390 /* icons8-credit-card-100.png in Resources */,
 				03583AE12095983900676D12 /* PopOverModalViewController.xib in Resources */,

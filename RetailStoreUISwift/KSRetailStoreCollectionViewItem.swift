@@ -8,7 +8,7 @@
 
 import AppKit
 
-class KSRetailStoreCollectionViewItem: NSCollectionViewItem {
+final class KSRetailStoreCollectionViewItem: NSCollectionViewItem {
  
     @IBOutlet weak var titleTextField: NSTextField!
     
@@ -22,7 +22,6 @@ class KSRetailStoreCollectionViewItem: NSCollectionViewItem {
         
         // Do view setup here.
     }
-    
     
     override var representedObject: Any? {
         didSet {

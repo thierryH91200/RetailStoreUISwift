@@ -8,7 +8,7 @@
 
 import AppKit
 
-class PopOverModalViewController: NSViewController {
+final class PopOverModalViewController: NSViewController {
     
     @IBOutlet weak var collectionView: NSCollectionView!
     var collectionViewItem : KSRetailCollectionViewItem!
@@ -109,7 +109,7 @@ extension PopOverModalViewController : NSCollectionViewDataSource
     
     func collectionView(_ collectionView: NSCollectionView, itemForRepresentedObjectAt indexPath: IndexPath) -> NSCollectionViewItem {
         let collectionObject = self.contents[indexPath.item]
-        let item = self.collectionView.makeItem(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: "KSRetailCollectionViewItem"), for: indexPath)
+        let item = self.collectionView.makeItem(withIdentifier: .collectionViewItem, for: indexPath)
         item.representedObject = collectionObject
         return item
     }
