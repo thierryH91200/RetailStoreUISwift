@@ -31,6 +31,7 @@
 		036D009E2096DEA400D8F049 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D009C2096DEA400D8F049 /* MainWindowController.xib */; };
 		036D00A020971DC500D8F049 /* icons8-wallet-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 036D009F20971DC500D8F049 /* icons8-wallet-80.png */; };
 		03FAFF4520986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png in Resources */ = {isa = PBXBuildFile; fileRef = 03FAFF4420986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png */; };
+		03FAFF47209864D3009D3A79 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03FAFF46209864D2009D3A79 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		036D009C2096DEA400D8F049 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 		036D009F20971DC500D8F049 /* icons8-wallet-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-wallet-80.png"; sourceTree = "<group>"; };
 		03FAFF4420986482009D3A79 /* Capture d'écran 2018-05-01 10.58.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capture d'écran 2018-05-01 10.58.36.png"; sourceTree = "<group>"; };
+		03FAFF46209864D2009D3A79 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		03583AA82095979700676D12 = {
 			isa = PBXGroup;
 			children = (
+				03FAFF46209864D2009D3A79 /* README.md */,
 				03FAFF4320986431009D3A79 /* Image */,
 				03583AB32095979700676D12 /* RetailStoreUISwift */,
 				03583AC42095979800676D12 /* RetailStoreUISwiftTests */,
@@ -309,6 +312,7 @@
 				03292E0B2095FEB2000A4390 /* icons8-museum-80.png in Resources */,
 				03292DF720959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib in Resources */,
 				03292E0D2095FF43000A4390 /* icons8-money-box-80.png in Resources */,
+				03FAFF47209864D3009D3A79 /* README.md in Resources */,
 				03292E18209603C2000A4390 /* icons8-safe-100.png in Resources */,
 				03292E19209603C2000A4390 /* icons8-paypal-100.png in Resources */,
 				03292E092095F9A0000A4390 /* KSRetailCollectionViewItem.xib in Resources */,
