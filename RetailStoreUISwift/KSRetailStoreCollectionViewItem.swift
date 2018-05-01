@@ -29,23 +29,23 @@ class KSRetailStoreCollectionViewItem: NSCollectionViewItem {
             super.representedObject = representedObject
             
             if let rep = representedObject as? [String:String] {
-                if let aKey = rep["itemImage"] {
-                    print("\(aKey)")
-                }
+
                 titleTextField?.stringValue = rep["itemTitle"] ?? ""
                 descriptionTextField?.stringValue = rep["itemDescription"] ?? ""
                 detailDescription?.stringValue = rep["itemDetailedDescription"] ?? ""
                 price?.stringValue = rep["itemPrice"] ?? ""
                 if let aKey = rep["itemImage"] {
                     itemImageView?.image = Bundle.main.image(forResource: NSImage.Name(rawValue: aKey))
+                    print("\(aKey)")
+
                 }
             }
-//            else {
-//                titleTextField.stringValue = "No Value"
-//                descriptionTextField.stringValue = "No Value"
-//                detailDescription.stringValue = "No Value"
-//                price.stringValue = "No Value"
-//            }
+            else {
+                titleTextField.stringValue = "No Value"
+                descriptionTextField.stringValue = "No Value"
+                detailDescription.stringValue = "No Value"
+                price.stringValue = "No Value"
+            }
         }
     }
     

@@ -15,14 +15,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     var mainWindowController : MainWindowController?
 
-
-    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         initializeLibraryAndShowMainWindow()
     }
     
-
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
@@ -32,15 +29,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
     
-
-    
     func initializeLibraryAndShowMainWindow() {
         
-        mainWindowController = MainWindowController(windowNibName: NSNib.Name(rawValue: "MainWindowController"))
+        mainWindowController = MainWindowController()
         mainWindowController?.showWindow(self)
     }
-
-
 
 }
 

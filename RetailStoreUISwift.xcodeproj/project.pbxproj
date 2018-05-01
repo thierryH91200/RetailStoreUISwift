@@ -10,19 +10,26 @@
 		03292DF620959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292DF420959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift */; };
 		03292DF720959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03292DF520959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib */; };
 		03292DF920959CD1000A4390 /* KSBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292DF820959CD1000A4390 /* KSBackgroundView.swift */; };
-		03292E002095A3C4000A4390 /* PastedGraphic-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFA2095A3C4000A4390 /* PastedGraphic-3.png */; };
-		03292E012095A3C4000A4390 /* PastedGraphic-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFB2095A3C4000A4390 /* PastedGraphic-4.png */; };
-		03292E022095A3C4000A4390 /* PastedGraphic-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFC2095A3C4000A4390 /* PastedGraphic-7.png */; };
-		03292E032095A3C4000A4390 /* PastedGraphic-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFD2095A3C4000A4390 /* PastedGraphic-1.png */; };
-		03292E042095A3C4000A4390 /* PastedGraphic-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFE2095A3C4000A4390 /* PastedGraphic-5.png */; };
-		03292E052095A3C4000A4390 /* PastedGraphic-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292DFF2095A3C4000A4390 /* PastedGraphic-6.png */; };
+		03292E082095F9A0000A4390 /* KSRetailCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03292E062095F99F000A4390 /* KSRetailCollectionViewItem.swift */; };
+		03292E092095F9A0000A4390 /* KSRetailCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03292E072095F9A0000A4390 /* KSRetailCollectionViewItem.xib */; };
+		03292E0B2095FEB2000A4390 /* icons8-museum-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E0A2095FEB2000A4390 /* icons8-museum-80.png */; };
+		03292E0D2095FF43000A4390 /* icons8-money-box-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E0C2095FF43000A4390 /* icons8-money-box-80.png */; };
+		03292E0F2096023D000A4390 /* icons8-money-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E0E2096023D000A4390 /* icons8-money-100.png */; };
+		03292E1120960283000A4390 /* icons8-expensive-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E1020960283000A4390 /* icons8-expensive-100.png */; };
+		03292E1520960301000A4390 /* icons8-purse-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E1320960301000A4390 /* icons8-purse-100.png */; };
+		03292E18209603C2000A4390 /* icons8-safe-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E16209603C2000A4390 /* icons8-safe-100.png */; };
+		03292E19209603C2000A4390 /* icons8-paypal-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E17209603C2000A4390 /* icons8-paypal-100.png */; };
+		03292E1B2096047F000A4390 /* icons8-credit-card-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 03292E1A2096047F000A4390 /* icons8-credit-card-100.png */; };
 		03583AB52095979700676D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AB42095979700676D12 /* AppDelegate.swift */; };
 		03583AB72095979800676D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03583AB62095979800676D12 /* Assets.xcassets */; };
 		03583ABA2095979800676D12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03583AB82095979800676D12 /* MainMenu.xib */; };
 		03583AC62095979800676D12 /* RetailStoreUISwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AC52095979800676D12 /* RetailStoreUISwiftTests.swift */; };
 		03583AD12095979800676D12 /* RetailStoreUISwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */; };
-		03583AE02095983900676D12 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583ADE2095983900676D12 /* MainWindowController.swift */; };
-		03583AE12095983900676D12 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03583ADF2095983900676D12 /* MainWindowController.xib */; };
+		03583AE02095983900676D12 /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03583ADE2095983900676D12 /* PopOverModalViewController.swift */; };
+		03583AE12095983900676D12 /* PopOverModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03583ADF2095983900676D12 /* PopOverModalViewController.xib */; };
+		036D009D2096DEA400D8F049 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D009B2096DEA400D8F049 /* MainWindowController.swift */; };
+		036D009E2096DEA400D8F049 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D009C2096DEA400D8F049 /* MainWindowController.xib */; };
+		036D00A020971DC500D8F049 /* icons8-wallet-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 036D009F20971DC500D8F049 /* icons8-wallet-80.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +53,16 @@
 		03292DF420959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSRetailStoreCollectionViewItem.swift; sourceTree = "<group>"; };
 		03292DF520959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KSRetailStoreCollectionViewItem.xib; sourceTree = "<group>"; };
 		03292DF820959CD1000A4390 /* KSBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSBackgroundView.swift; sourceTree = "<group>"; };
-		03292DFA2095A3C4000A4390 /* PastedGraphic-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-3.png"; sourceTree = "<group>"; };
-		03292DFB2095A3C4000A4390 /* PastedGraphic-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-4.png"; sourceTree = "<group>"; };
-		03292DFC2095A3C4000A4390 /* PastedGraphic-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-7.png"; sourceTree = "<group>"; };
-		03292DFD2095A3C4000A4390 /* PastedGraphic-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-1.png"; sourceTree = "<group>"; };
-		03292DFE2095A3C4000A4390 /* PastedGraphic-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-5.png"; sourceTree = "<group>"; };
-		03292DFF2095A3C4000A4390 /* PastedGraphic-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PastedGraphic-6.png"; sourceTree = "<group>"; };
+		03292E062095F99F000A4390 /* KSRetailCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSRetailCollectionViewItem.swift; sourceTree = "<group>"; };
+		03292E072095F9A0000A4390 /* KSRetailCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSRetailCollectionViewItem.xib; sourceTree = "<group>"; };
+		03292E0A2095FEB2000A4390 /* icons8-museum-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-museum-80.png"; sourceTree = "<group>"; };
+		03292E0C2095FF43000A4390 /* icons8-money-box-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-money-box-80.png"; sourceTree = "<group>"; };
+		03292E0E2096023D000A4390 /* icons8-money-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-money-100.png"; sourceTree = "<group>"; };
+		03292E1020960283000A4390 /* icons8-expensive-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-expensive-100.png"; sourceTree = "<group>"; };
+		03292E1320960301000A4390 /* icons8-purse-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-purse-100.png"; sourceTree = "<group>"; };
+		03292E16209603C2000A4390 /* icons8-safe-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-safe-100.png"; sourceTree = "<group>"; };
+		03292E17209603C2000A4390 /* icons8-paypal-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-paypal-100.png"; sourceTree = "<group>"; };
+		03292E1A2096047F000A4390 /* icons8-credit-card-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-credit-card-100.png"; sourceTree = "<group>"; };
 		03583AB12095979700676D12 /* RetailStoreUISwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailStoreUISwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03583AB42095979700676D12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03583AB62095979800676D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,8 +75,11 @@
 		03583ACC2095979800676D12 /* RetailStoreUISwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailStoreUISwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03583AD02095979800676D12 /* RetailStoreUISwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailStoreUISwiftUITests.swift; sourceTree = "<group>"; };
 		03583AD22095979800676D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03583ADE2095983900676D12 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
-		03583ADF2095983900676D12 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		03583ADE2095983900676D12 /* PopOverModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverModalViewController.swift; sourceTree = "<group>"; };
+		03583ADF2095983900676D12 /* PopOverModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopOverModalViewController.xib; sourceTree = "<group>"; };
+		036D009B2096DEA400D8F049 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		036D009C2096DEA400D8F049 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		036D009F20971DC500D8F049 /* icons8-wallet-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-wallet-80.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03279DB4209620AD00322020 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				036D009F20971DC500D8F049 /* icons8-wallet-80.png */,
+				03292E0A2095FEB2000A4390 /* icons8-museum-80.png */,
+				03292E0C2095FF43000A4390 /* icons8-money-box-80.png */,
+				03292E1320960301000A4390 /* icons8-purse-100.png */,
+				03292E17209603C2000A4390 /* icons8-paypal-100.png */,
+				03292E1A2096047F000A4390 /* icons8-credit-card-100.png */,
+				03292E16209603C2000A4390 /* icons8-safe-100.png */,
+				03292E0E2096023D000A4390 /* icons8-money-100.png */,
+				03292E1020960283000A4390 /* icons8-expensive-100.png */,
+				03583AB62095979800676D12 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		03583AA82095979700676D12 = {
 			isa = PBXGroup;
 			children = (
@@ -116,22 +147,20 @@
 		03583AB32095979700676D12 /* RetailStoreUISwift */ = {
 			isa = PBXGroup;
 			children = (
-				03292DFD2095A3C4000A4390 /* PastedGraphic-1.png */,
-				03292DFA2095A3C4000A4390 /* PastedGraphic-3.png */,
-				03292DFB2095A3C4000A4390 /* PastedGraphic-4.png */,
-				03292DFE2095A3C4000A4390 /* PastedGraphic-5.png */,
-				03292DFF2095A3C4000A4390 /* PastedGraphic-6.png */,
-				03292DFC2095A3C4000A4390 /* PastedGraphic-7.png */,
 				03583AB42095979700676D12 /* AppDelegate.swift */,
-				03583AB62095979800676D12 /* Assets.xcassets */,
-				03583AB82095979800676D12 /* MainMenu.xib */,
 				03583ABB2095979800676D12 /* Info.plist */,
-				03583ABC2095979800676D12 /* RetailStoreUISwift.entitlements */,
-				03583ADE2095983900676D12 /* MainWindowController.swift */,
-				03583ADF2095983900676D12 /* MainWindowController.xib */,
+				03292DF820959CD1000A4390 /* KSBackgroundView.swift */,
+				03292E062095F99F000A4390 /* KSRetailCollectionViewItem.swift */,
+				03292E072095F9A0000A4390 /* KSRetailCollectionViewItem.xib */,
 				03292DF420959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift */,
 				03292DF520959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib */,
-				03292DF820959CD1000A4390 /* KSBackgroundView.swift */,
+				03583AB82095979800676D12 /* MainMenu.xib */,
+				03583ADE2095983900676D12 /* PopOverModalViewController.swift */,
+				03583ADF2095983900676D12 /* PopOverModalViewController.xib */,
+				036D009B2096DEA400D8F049 /* MainWindowController.swift */,
+				036D009C2096DEA400D8F049 /* MainWindowController.xib */,
+				03279DB4209620AD00322020 /* Resource */,
+				03583ABC2095979800676D12 /* RetailStoreUISwift.entitlements */,
 			);
 			path = RetailStoreUISwift;
 			sourceTree = "<group>";
@@ -258,15 +287,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03292E052095A3C4000A4390 /* PastedGraphic-6.png in Resources */,
-				03292E012095A3C4000A4390 /* PastedGraphic-4.png in Resources */,
+				03292E1520960301000A4390 /* icons8-purse-100.png in Resources */,
+				036D009E2096DEA400D8F049 /* MainWindowController.xib in Resources */,
 				03583AB72095979800676D12 /* Assets.xcassets in Resources */,
-				03583AE12095983900676D12 /* MainWindowController.xib in Resources */,
-				03292E032095A3C4000A4390 /* PastedGraphic-1.png in Resources */,
+				03292E1B2096047F000A4390 /* icons8-credit-card-100.png in Resources */,
+				03583AE12095983900676D12 /* PopOverModalViewController.xib in Resources */,
+				03292E0F2096023D000A4390 /* icons8-money-100.png in Resources */,
+				036D00A020971DC500D8F049 /* icons8-wallet-80.png in Resources */,
+				03292E0B2095FEB2000A4390 /* icons8-museum-80.png in Resources */,
 				03292DF720959BF2000A4390 /* KSRetailStoreCollectionViewItem.xib in Resources */,
-				03292E002095A3C4000A4390 /* PastedGraphic-3.png in Resources */,
-				03292E042095A3C4000A4390 /* PastedGraphic-5.png in Resources */,
-				03292E022095A3C4000A4390 /* PastedGraphic-7.png in Resources */,
+				03292E0D2095FF43000A4390 /* icons8-money-box-80.png in Resources */,
+				03292E18209603C2000A4390 /* icons8-safe-100.png in Resources */,
+				03292E19209603C2000A4390 /* icons8-paypal-100.png in Resources */,
+				03292E092095F9A0000A4390 /* KSRetailCollectionViewItem.xib in Resources */,
+				03292E1120960283000A4390 /* icons8-expensive-100.png in Resources */,
 				03583ABA2095979800676D12 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,10 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03583AE02095983900676D12 /* MainWindowController.swift in Sources */,
+				03292E082095F9A0000A4390 /* KSRetailCollectionViewItem.swift in Sources */,
+				03583AE02095983900676D12 /* PopOverModalViewController.swift in Sources */,
 				03583AB52095979700676D12 /* AppDelegate.swift in Sources */,
 				03292DF920959CD1000A4390 /* KSBackgroundView.swift in Sources */,
 				03292DF620959BF2000A4390 /* KSRetailStoreCollectionViewItem.swift in Sources */,
+				036D009D2096DEA400D8F049 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
