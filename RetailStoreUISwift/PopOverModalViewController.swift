@@ -8,14 +8,21 @@
 
 import AppKit
 
+@objc
+public protocol PopOverModalDelegate
+{
+    /// Called when a value has been selected inside the outline.
+    @objc func changeView( name : String)
+}
+
 final class PopOverModalViewController: NSViewController {
     
     @IBOutlet weak var collectionView: NSCollectionView!
     var collectionViewItem : KSRetailCollectionViewItem!
     var contents = [[String: String ]]()
     
-    var mainWindowController : MainWindowController!
-    
+    @objc open weak var delegate: PopOverModalDelegate?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -126,7 +133,7 @@ extension PopOverModalViewController : NSCollectionViewDelegate
         let rep = (item as! KSRetailCollectionViewItem).representedObject as? [String:String]
         let nameController = rep!["itemImage"]!
         
-        mainWindowController.changeView(name: nameController)
+        delegate?.changeView(name: nameController)
     }
     
 }

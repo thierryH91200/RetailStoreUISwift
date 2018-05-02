@@ -17,7 +17,7 @@ final class MainWindowController: NSWindowController, NSPopoverDelegate {
         let popover = NSPopover()
         popover.behavior = .semitransient
         let popOverModalViewController = PopOverModalViewController()
-        popOverModalViewController.mainWindowController = self
+        popOverModalViewController.delegate = self
         popover.contentViewController = popOverModalViewController
         popover.delegate = self
         return popover
@@ -47,14 +47,20 @@ final class MainWindowController: NSWindowController, NSPopoverDelegate {
         
         let positioningView = sender
         let positioningRect = NSZeroRect
-        let preferredEdge = NSRectEdge.minY
+        let preferredEdge = NSRectEdge.maxX
         
         popover.show(relativeTo: positioningRect, of: positioningView, preferredEdge: preferredEdge)
     }
     
-    func changeView(name: String) {
+}
+
+extension MainWindowController: PopOverModalDelegate
+{
+    func changeView(name : String)
+    {
         imageView.image =  NSImage(named:NSImage.Name(rawValue: name))
-        
     }
     
 }
+
+
